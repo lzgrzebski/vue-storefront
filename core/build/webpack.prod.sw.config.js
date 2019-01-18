@@ -90,7 +90,7 @@ module.exports = merge(base, {
         urlPattern: "/*", /** this is new category url format  */
         handler: "networkFirst"
       }],
-      "importScripts": ['/dist/core-service-worker.js'] /* custom logic */
-    })    
+      "importScripts": ['/dist/core-service-worker.js', 'https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js'], /* custom logic */
+    })
   ]
 })

@@ -368,7 +368,9 @@
       "id": false
     },
     "oneSignal": {
-      "id": "089787d5-7a25-4efb-9044-b71f75ad96fd"
+      "appId": "089787d5-7a25-4efb-9044-b71f75ad96fd",
+      "autoRegister": false,
+      "allowLocalhostAsSecureOrigin": true
     },
     "cms": {
       "endpoint": "http://localhost:8080/api/ext/cms-data/cms{{type}}/{{cmsId}}",

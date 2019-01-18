@@ -2,7 +2,7 @@ import { register } from 'register-service-worker'
 import { server } from 'config'
 
 if (process.env.NODE_ENV === 'production' || server.devServiceWorker) {
-  register(`/service-worker.js`, {
+  register(`/OneSignalSDKWorker.js`, {
     ready () {
       console.log(
         'App is being served from cache by a service worker.'

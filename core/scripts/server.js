@@ -115,7 +115,7 @@ const themeRoot = require('../build/theme-path')
 
 app.use('/dist', serve('dist', true))
 app.use('/assets', serve(themeRoot + '/assets', true))
-app.use('/service-worker.js', serve('dist/service-worker.js', {
+app.use('/OneSignalSDKWorker.js', serve('dist/service-worker.js', {
   setHeaders: {'Content-Type': 'text/javascript; charset=UTF-8'}
 }))
 
