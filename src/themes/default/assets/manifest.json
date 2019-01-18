@@ -41,5 +41,8 @@
         "type": "image/png",
         "sizes": "512x512"
       }
-    ]
+    ],
+
+    "gcm_sender_id": "482941778795",
+    "gcm_sender_id_comment": "Do not change the GCM Sender ID"
   }
