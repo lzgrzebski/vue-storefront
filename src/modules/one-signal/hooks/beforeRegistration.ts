@@ -14,10 +14,12 @@ export function beforeRegistration(Vue, config, store, isServer) {
     }
     if (typeof window !== 'undefined') {
       window.OneSignal = window.OneSignal || [];
-      window.OneSignal.push(function() {
+      window.OneSignal.push(() => {
         window.OneSignal.init({
           appId: "089787d5-7a25-4efb-9044-b71f75ad96fd",
         });
+        store.dispatch('one-signal/subscribe')
+        // window.OneSignal.registerForPushNotifications();
       });
     }
 
