@@ -18,7 +18,7 @@
     },
     "seo": {
       "useUrlDispatcher": false
-    },    
+    },
     "console": {
       "verbosityLevel": "only-errors"
     },
@@ -366,6 +366,9 @@
     "theme": "@vue-storefront/theme-default",
     "analytics": {
       "id": false
+    },
+    "oneSignal": {
+      "id": "089787d5-7a25-4efb-9044-b71f75ad96fd"
     },
     "cms": {
       "endpoint": "http://localhost:8080/api/ext/cms-data/cms{{type}}/{{cmsId}}",
